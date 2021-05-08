@@ -18,7 +18,6 @@ body{
           grid-template-columns: 0.6fr 0.5fr 0.8fr;
           grid-template-rows: 0.3fr 2fr 0.8fr 0.8fr 0.2fr;
           font-weight: bolder;
-          transform: rotate(-45deg);
           grid-gap: 15px;
 }
 
@@ -50,27 +49,37 @@ body{
           grid-column: 1/2;
           grid-row: 3/6;
           font-size: 20px;
+          
+}
+
+.four p:nth-child(1){
+          padding: 1px 0px;
 }
 
 .four p:nth-child(2){
-          border-top: 7px solid black;
-          border-bottom: 7px solid black;
+          border-top: 6px solid black;
+          border-bottom: 6px solid black;
+          padding: 1px 0px;
 }
 
 .four p:nth-child(3){
-          border-bottom: 7px solid black;
+          border-bottom: 6px solid black;
+          padding: 1px 0px;
 }
 
 .four p:nth-child(4){
-          border-bottom: 7px solid black;
+          border-bottom: 6px solid black;
+          padding: 1px 0px;
 }
 
 .four p:nth-child(5){
-          border-bottom: 7px solid black;
+          border-bottom: 6px solid black;
+          padding: 1px 0px;
 }
 
 .four p:nth-child(6){
-          border-bottom: 7px solid black;
+          border-bottom: 6px solid black;
+          padding: 1px 0px;
 }
 
 .five{
@@ -87,6 +96,7 @@ body{
           font-size: 20px;
           border-top: 7px solid black;
           border-bottom: 7px solid black;
+          padding: 1px 0px;
 }
 
 .seven{
