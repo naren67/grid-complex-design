@@ -4,59 +4,98 @@
           box-sizing: border-box;
 }
 
+body{
+          font-family: sans-serif;
+          text-transform: uppercase;
+          background: #f6f3ea;
+}
+
 .container{
-          width: 100%;
+          width: 65%;
           height: 100vh;
+          margin: 0px auto;
           display: grid;
-          grid-template-columns: 0.5fr 0.5fr 1fr;
-          grid-template-rows: 1fr 2fr 1.2fr 0.2fr;
-          padding: 20px;
+          grid-template-columns: 0.6fr 0.5fr 0.8fr;
+          grid-template-rows: 0.3fr 2fr 0.8fr 0.8fr 0.2fr;
+          font-weight: bolder;
+          transform: rotate(-45deg);
+          grid-gap: 15px;
 }
 
 .one{
-          background: chocolate;
           grid-column: 1/3;
           grid-row: 1/2;
 }
 
+.one p{
+          font-size: 49px;
+          text-align: right;
+}
+
 .two{
-          background: coral;
           grid-column: 1/2;
           grid-row: 2/3;
 }
 
 .three{
-          background: cornflowerblue;
           grid-column: 2/3;
-          grid-row: 2/4;
+          grid-row: 2/5;
+          color: orangered;
+          writing-mode: vertical-rl;
+          text-orientation: mixed;
+          font-size: 49px;
 }
 
 .four{
-          background: cornsilk;
           grid-column: 1/2;
-          grid-row: 3/5;
+          grid-row: 3/6;
+          font-size: 20px;
+}
+
+.four p:nth-child(2){
+          border-top: 7px solid black;
+          border-bottom: 7px solid black;
+}
+
+.four p:nth-child(3){
+          border-bottom: 7px solid black;
+}
+
+.four p:nth-child(4){
+          border-bottom: 7px solid black;
+}
+
+.four p:nth-child(5){
+          border-bottom: 7px solid black;
+}
+
+.four p:nth-child(6){
+          border-bottom: 7px solid black;
 }
 
 .five{
-          background: cyan;
           grid-column: 3/4;
-          grid-row: 1/2;
+          grid-row: 1/3;
 }
 
 .six{
-          background: darkcyan;
-          grid-column: 3/4;
-          grid-row: 2/3;
-}
-
-.seven{
-          background: darkkhaki;
           grid-column: 3/4;
           grid-row: 3/4;
 }
 
-.eight{
-          background: darkseagreen;
-          grid-column: 2/4;
+.six p{
+          font-size: 20px;
+          border-top: 7px solid black;
+          border-bottom: 7px solid black;
+}
+
+.seven{
+          grid-column: 3/4;
           grid-row: 4/5;
+}
+
+.eight{
+          background: orangered;
+          grid-column: 2/4;
+          grid-row: 5/6;
 }
