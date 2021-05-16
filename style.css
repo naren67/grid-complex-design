@@ -19,6 +19,7 @@ body{
           grid-template-rows: 0.3fr 2fr 0.8fr 0.8fr 0.2fr;
           font-weight: bolder;
           grid-gap: 15px;
+          transform: rotate(-45deg);
 }
 
 .one{
